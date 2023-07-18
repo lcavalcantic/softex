@@ -1,1 +1,1 @@
-# softex
+# softex - lógica
