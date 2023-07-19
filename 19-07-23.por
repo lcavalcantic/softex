@@ -108,3 +108,29 @@ programa {
     
     }
 }
+
+ADD LAÇO DE REPETIÇÃO 
+programa {
+    
+	funcao inicio() {
+    real salario, prestacao, limite
+    inteiro cont= 0
+    
+    enquanto(cont<10){
+    escreva("Digite o valor do seu salário:\n->")
+    leia(salario)
+    escreva("Digite o valor da prestação:\n->")
+    leia(prestacao)
+    
+    limite = salario*0.3
+    se(prestacao<=limite){
+        escreva("Crédito liberado!\n")
+    }senao {
+        escreva("Crédito indisponível! :( \n")
+        cont++
+    }   
+    
+    }
+    
+    }
+}
