@@ -1,4 +1,4 @@
-algoritmo "codepark10"
+algoritmo "codepark11"
 var
 qtdRodas, peso, qtdPessoas: Inteiro
 inicio
