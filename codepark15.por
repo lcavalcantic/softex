@@ -33,18 +33,18 @@ repita
 ate voto = -1
 
 escreval("Eleição finalizada.")
-escreval("Votos Candidato_X: ", candidatoX)
-escreval("Votos Candidato_Y: ", candidatoY)
-escreval("Votos Candidato_Z: ", candidatoZ)
+escreval("Votos CandidatoX: ", candidatoX)
+escreval("Votos CandidatoY: ", candidatoY)
+escreval("Votos CandidatoZ: ", candidatoZ)
 escreval("Votos em Branco: ", branco)
 escreval("Votos Nulos: ", nulo)
 
 se candidatoX > candidatoY e candidatoX > candidatoZ entao
-    escreval("Vencedor: Candidato_X")
+    escreval("Vencedor: CandidatoX")
 senao se candidatoY > candidatoX e candidatoY > candidatoZ entao
-    escreval("Vencedor: Candidato_Y")
+    escreval("Vencedor: CandidatoY")
 senao se candidatoZ > candidatoX e candidatoZ > candidatoY entao
-    escreval("Vencedor: Candidato_Z")
+    escreval("Vencedor: CandidatoZ")
 senao
     escreval("Houve empate entre os candidatos.")
 fimse
