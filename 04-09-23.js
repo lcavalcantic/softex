@@ -20,3 +20,39 @@ CRIANDO CALCULADORA IMC
     } else { 
         console.log("Obesidade mórbida");
     }
+
+//CRIANDO CALCULADORA COM SWITCH CASE
+console.log('CALCULADORA')
+
+let resultado;
+
+let operador = prompt('Deseja {Escolha +, -, * ou /}');
+
+let num1 = parseFloat(prompt('Digite o primeiro valor: '));
+let num2 = parseFloat(prompt('Digite o segundo valor: '));
+
+switch (operador){
+    case '+':
+        resultado = num1 + num2;
+        console.log(`${num1} + ${num2} = ${resultado}`);
+        break;
+        
+    case '-':
+        resultado = num1 - num2;
+        console.log(`${num1} - ${num2} = ${resultado}`);
+        break;
+    
+    case '*':
+        resultado = num1 * num2;
+        console.log(`${num1} * ${num2} = ${resultado}`);
+        break;
+        
+    case '/':
+        resultado = num1 / num2;
+        console.log(`${num1} / ${num2} = ${resultado}`);
+        break;
+        
+        default:
+        console.log('Opção inválida');
+        break;
+}
